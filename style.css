@@ -1,0 +1,173 @@
+/* === Google Fonts Import === */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Raleway:wght@700&display=swap');
+
+/* === Reset and Global Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212121;
+  background-color: #fff;
+}
+
+/* === Header === */
+.header_container--logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.header_container--nav--link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header_content--email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.header_content--phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* === Hero Section === */
+.solution {
+  background-color: #2F303A;
+}
+
+.solution_container--title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.solution_container--button {
+  background-color: #2196F3;
+  border-radius: 4px;
+  box-shadow: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.custom-box {
+  width: 350px;
+  height: 220px;
+  padding: 15px 10px 20px 10px;
+  margin-bottom: 30px;
+  border: 2px dashed red;
+  background-color: green;
+}
+
+/* === Info Section === */
+.info_cart--title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.info_cart--text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* === What We Do Section === */
+.whatWEDO_container--title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* === Our Team Section === */
+.ourteam_title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.ourteam_container--card {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.ourteam_container--card p:last-of-type {
+  color: #757575;
+}
+
+/* === Footer === */
+.footer {
+  background-color: #2F303A;
+}
+
+.footer_title {
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+.footer_adress {
+  color: #F5F4FA;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer_adress--media {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
