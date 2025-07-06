@@ -240,13 +240,16 @@ main {
     width: 100%;
     max-width: 540px;
     background-color: #F13C6E;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 40px;
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 .promo1_container {
     width: 100%;
-    padding: 35px 275px 35px 40px;
 }
 
 .promo1_container--title {
@@ -256,7 +259,7 @@ main {
     line-height: 100%;
     letter-spacing: 0%;
     color: #FFFFFF;
-    padding: 25px 0;
+    padding-bottom: 25px;
 }
 
 .promo1_container--text {
@@ -266,7 +269,7 @@ main {
     line-height: 141%;
     letter-spacing: 0%;
     color: #FFFFFF;
-    padding: 25px 0;
+    padding-bottom: 25px;
 }
 
 .promo1_container--input {
@@ -281,14 +284,14 @@ main {
     padding: 9px 95px 9px 25px;
 }
 
-.promo1_container--icon {
-    
-}
 
 .promo2 {
     width: 100%;
     max-width: 540px;
     background-color: #F13C6E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .promo2_container {
@@ -355,6 +358,9 @@ main {
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .popular_box--top {
@@ -391,14 +397,31 @@ main {
 .footer_bottom {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
     border-top: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: center;
 }
 
 .footer_bottom--box {
     width: 100%;
     max-width: 1110px;
-    padding: 37px 405px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.footer_bottom--box--circles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_bottom--box--number {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .footer_bottom--box--number--text {
@@ -434,6 +457,9 @@ main {
     margin: 0 auto;
     padding-top: 25px;
     padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .grey_box--text {
